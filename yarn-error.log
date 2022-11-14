@@ -1,0 +1,51 @@
+Arguments: 
+  /home/onemedia/.nvm/versions/node/v16.18.0/bin/node /usr/local/bin/yarnpkg install
+
+PATH: 
+  /home/onemedia/.nvm/versions/node/v16.18.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/onemedia/.cache/yarn/v6/npm-@babel-plugin-proposal-json-strings-7.18.6-7e8788c1811c393aff762817e7dbf1ebd0c05f0b-integrity/node_modules/@babel/plugin-proposal-json-strings/LICENSE' -> '/home/onemedia/Documents/projects/mobile-nlw-esports/nlw-esports-mobile/node_modules/@babel/plugin-proposal-json-strings/LICENSE'
+
+npm manifest: 
+  {
+    "name": "nlw-esports-mobile",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~47.0.3",
+      "expo-status-bar": "~1.4.2",
+      "react": "18.1.0",
+      "react-dom": "18.1.0",
+      "react-native": "0.70.5",
+      "react-native-web": "~0.18.9"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9",
+      "@types/react": "~18.0.14",
+      "@types/react-native": "~0.70.6",
+      "typescript": "^4.6.3"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
